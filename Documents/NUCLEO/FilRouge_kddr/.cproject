@@ -18,7 +18,7 @@
 					<folderInfo id="com.atollic.managedbuild.pctools.config.gnu.exe.debug.248208987." name="/" resourcePath="">
 						<toolChain id="com.atollic.managedbuild.pctoolschain.gnu.exe.debug.2049946531" name="Atollic Linux PC Tools" superClass="com.atollic.managedbuild.pctoolschain.gnu.exe.debug">
 							<targetPlatform id="com.atollic.pctools.managedbuild.target.gnu.platform.exe.debug.291050332" name="Debug Platform" superClass="com.atollic.pctools.managedbuild.target.gnu.platform.exe.debug"/>
-							<builder buildPath="${workspace_loc:/FilRouge_kddr}/Debug" customBuilderProperties="toolChainpathString=/opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.3.0/ARMTools/bin|toolChainpathType=1|" id="com.atollic.pctools.managedbuild.target.gnu.builder.exe.debug.1173869806" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU Make Builder" superClass="com.atollic.pctools.managedbuild.target.gnu.builder.exe.debug"/>
+							<builder buildPath="${workspace_loc:/FilRouge_kddr}/Debug" customBuilderProperties="toolChainpathType=1|toolChainpathString=/opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.3.0/ARMTools/bin|" id="com.atollic.pctools.managedbuild.target.gnu.builder.exe.debug.1173869806" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU Make Builder" superClass="com.atollic.pctools.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="com.atollic.managedbuild.pctools.gnu.archiver.base.2049630259" name="Archiver" superClass="com.atollic.managedbuild.pctools.gnu.archiver.base"/>
 							<tool id="com.atollic.managedbuild.pctools.gnu.cpp.compiler.exe.debug.1364558292" name="C++ Compiler" superClass="com.atollic.managedbuild.pctools.gnu.cpp.compiler.exe.debug">
 								<option id="com.atollic.pctools.gnu.cpp.compiler.exe.debug.option.optimization.level.1478807000" name="Optimization Level" superClass="com.atollic.pctools.gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="com.atollic.pctools.gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
@@ -30,7 +30,7 @@
 								<inputType id="com.atollic.managedbuild.pctools.gnu.c.compiler.input.780126335" superClass="com.atollic.managedbuild.pctools.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="com.atollic.managedbuild.pctools.gnu.c.linker.exe.debug.859963494" name="C Linker" superClass="com.atollic.managedbuild.pctools.gnu.c.linker.exe.debug">
-								<option id="com.atollic.pctools.gnu.c.link.option.libs.779526378" superClass="com.atollic.pctools.gnu.c.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+								<option id="com.atollic.pctools.gnu.c.link.option.libs.779526378" name="Libraries (-l)" superClass="com.atollic.pctools.gnu.c.link.option.libs" useByScannerDiscovery="false" valueType="libs">
 									<listOptionValue builtIn="false" value="ncurses"/>
 								</option>
 								<inputType id="com.atollic.managedbuild.pctools.gnu.c.linker.input.250089638" superClass="com.atollic.managedbuild.pctools.gnu.c.linker.input">
