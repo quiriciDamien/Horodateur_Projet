@@ -1,0 +1,14 @@
+/*
+ * ADC_init.h
+ *
+ *  Created on: 27 mai 2019
+ *      Author: damien
+ */
+
+#ifndef ADC_INIT_H_
+#define ADC_INIT_H_
+
+static void MX_ADC1_Init(void);
+
+
+#endif /* ADC_INIT_H_ */
